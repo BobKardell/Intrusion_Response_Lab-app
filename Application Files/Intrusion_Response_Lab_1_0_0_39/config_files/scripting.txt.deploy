@@ -1,0 +1,33 @@
+﻿#Type|SQL_Code|OutFile
+# FS = File System Query
+# FS has a 4th field for options:
+#	CP = copy files to output directory
+#	MD5 = calculate MD hash on files
+# e.g. FS|SQL_Code|Outfile|CP,M5
+# EV = Event Log Files Query
+# RG = Registry Query
+######
+# File System
+FS|c:\Windows\prefetch|prefetch_logs.csv|CP,M5
+FS|C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent|jump_lists.csv|CP
+
+# Event Logs
+EV|C:\Windows\System32\winevt\Logs\Application.evtx|application_evtx.csv
+EV|C:\Windows\System32\winevt\Logs\Security.evtx|security_evtx.csv
+
+# Registy
+RG|HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU\|open_save_mru.csv
+RG|HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs|recent_docs.csv
+RG|HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RunMRU|run_mru.csv
+RG|HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths|typed_paths.csv
+RG|HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist|user_assist.csv
+RG|HKCU\SOFTWARE\Microsoft\Windows\Shell|shell_bags.csv
+RG|HKLM\SOFTWARE\Microsoft\Windows Portable Devices\Devices|portable_devices.csv
+RG|HKLM\SYSTEM\MountedDevices|mounted_devices.csv
+RG|HKLM\SYSTEM\CurrentControlSet\Enum\USBSTOR\|usb_connected.csv
+RG|HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Mountpoints2|mount_points.csv
+RG|HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation|time_zone.csv
+RG|HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName|computer_name.csv
+RG|HKLM\SYSTEM\CurrentControlSet\Control\FileSystem|file_system.csv
+RG|HKLM\SYSTEM\CurrentControlSet\services\Tcpip\Parameters\Interfaces|tcpip_interfaces.csv
+RG|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList|network_list.csv
