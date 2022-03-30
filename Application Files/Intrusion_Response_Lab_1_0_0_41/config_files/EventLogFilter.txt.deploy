@@ -1,0 +1,173 @@
+﻿4768 	Account Logon	A Kerberos authentication ticket (TGT) was requested
+4769 	Account Logon	A Kerberos service ticket was requested
+4770 	Account Logon	A Kerberos service ticket was renewed
+4771 	Account Logon	Kerberos pre-authentication failed
+4772 	Account Logon	A Kerberos authentication ticket request failed
+4773 	Account Logon	A Kerberos service ticket request failed
+4774 	Account Logon	An account was mapped for logon
+4775 	Account Logon	An account could not be mapped for logon
+4776 	Account Logon	The domain controller attempted to validate the credentials for an account
+4777 	Account Logon	The domain controller failed to validate the credentials for an account
+4820 	Account Logon	A Kerberos Ticket-granting-ticket (TGT) was denied because the device does not meet the access control restrictions
+4624 	Logon/Logoff	An account was successfully logged on
+4625 	Logon/Logoff	An account failed to log on
+4626 	Logon/Logoff	User/Device claims information
+4627 	Logon/Logoff	Group membership information.
+4634 	Logon/Logoff	An account was logged off
+4646 	Logon/Logoff	IKE DoS-prevention mode started
+4647 	Logon/Logoff	User initiated logoff
+4648 	Logon/Logoff	A logon was attempted using explicit credentials
+4649 	Logon/Logoff	A replay attack was detected
+4650 	Logon/Logoff	An IPsec Main Mode security association was established
+4651 	Logon/Logoff	An IPsec Main Mode security association was established
+4652 	Logon/Logoff	An IPsec Main Mode negotiation failed
+4653 	Logon/Logoff	An IPsec Main Mode negotiation failed
+4654 	Logon/Logoff	An IPsec Quick Mode negotiation failed
+4655 	Logon/Logoff	An IPsec Main Mode security association ended
+4672 	Logon/Logoff	Special privileges assigned to new logon
+4675 	Logon/Logoff	SIDs were filtered
+4778 	Logon/Logoff	A session was reconnected to a Window Station
+4779 	Logon/Logoff	A session was disconnected from a Window Station
+4800 	Logon/Logoff	The workstation was locked
+4801 	Logon/Logoff	The workstation was unlocked
+4802 	Logon/Logoff	The screen saver was invoked
+4803 	Logon/Logoff	The screen saver was dismissed
+4964 	Logon/Logoff	Special groups have been assigned to a new logon
+4976 	Logon/Logoff	During Main Mode negotiation, IPsec received an invalid negotiation packet.
+4977 	Logon/Logoff	During Quick Mode negotiation, IPsec received an invalid negotiation packet.
+4978 	Logon/Logoff	During Extended Mode negotiation, IPsec received an invalid negotiation packet.
+4979 	Logon/Logoff	IPsec Main Mode and Extended Mode security associations were established.
+4980 	Logon/Logoff	IPsec Main Mode and Extended Mode security associations were established
+4981 	Logon/Logoff	IPsec Main Mode and Extended Mode security associations were established
+4982 	Logon/Logoff	IPsec Main Mode and Extended Mode security associations were established
+4983 	Logon/Logoff	An IPsec Extended Mode negotiation failed
+4984 	Logon/Logoff	An IPsec Extended Mode negotiation failed
+5378 	Logon/Logoff	The requested credentials delegation was disallowed by policy
+5451 	Logon/Logoff	An IPsec Quick Mode security association was established
+5452 	Logon/Logoff	An IPsec Quick Mode security association ended
+5453 	Logon/Logoff	An IPsec negotiation with a remote computer failed because the IKE and AuthIP IPsec Keying Modules (IKEEXT) service is not started
+5632 	Logon/Logoff	A request was made to authenticate to a wireless network
+5633 	Logon/Logoff	A request was made to authenticate to a wired network
+6272 	Logon/Logoff	Network Policy Server granted access to a user
+6273 	Logon/Logoff	Network Policy Server denied access to a user
+6274 	Logon/Logoff	Network Policy Server discarded the request for a user
+6275 	Logon/Logoff	Network Policy Server discarded the accounting request for a user
+6276 	Logon/Logoff	Network Policy Server quarantined a user
+6277 	Logon/Logoff	Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy
+6278 	Logon/Logoff	Network Policy Server granted full access to a user because the host met the defined health policy
+6279 	Logon/Logoff	Network Policy Server locked the user account due to repeated failed authentication attempts
+6280 	Logon/Logoff	Network Policy Server unlocked the user account
+4624 	Policy Change	An account was successfully logged on
+4625 	Policy Change	An account failed to log on
+4626 	Policy Change	User/Device claims information
+4627 	Policy Change	Group membership information.
+4634 	Policy Change	An account was logged off
+4646 	Policy Change	IKE DoS-prevention mode started
+4647 	Policy Change	User initiated logoff
+4648 	Policy Change	A logon was attempted using explicit credentials
+4649 	Policy Change	A replay attack was detected
+4650 	Policy Change	An IPsec Main Mode security association was established
+4651 	Policy Change	An IPsec Main Mode security association was established
+4652 	Policy Change	An IPsec Main Mode negotiation failed
+4653 	Policy Change	An IPsec Main Mode negotiation failed
+4654 	Policy Change	An IPsec Quick Mode negotiation failed
+4655 	Policy Change	An IPsec Main Mode security association ended
+4672 	Policy Change	Special privileges assigned to new logon
+4675 	Policy Change	SIDs were filtered
+4778 	Policy Change	A session was reconnected to a Window Station
+4779 	Policy Change	A session was disconnected from a Window Station
+4800 	Policy Change	The workstation was locked
+4801 	Policy Change	The workstation was unlocked
+4802 	Policy Change	The screen saver was invoked
+4803 	Policy Change	The screen saver was dismissed
+4964 	Policy Change	Special groups have been assigned to a new logon
+4976 	Policy Change	During Main Mode negotiation, IPsec received an invalid negotiation packet.
+4977 	Policy Change	During Quick Mode negotiation, IPsec received an invalid negotiation packet.
+4978 	Policy Change	During Extended Mode negotiation, IPsec received an invalid negotiation packet.
+4979 	Policy Change	IPsec Main Mode and Extended Mode security associations were established.
+4980 	Policy Change	IPsec Main Mode and Extended Mode security associations were established
+4981 	Policy Change	IPsec Main Mode and Extended Mode security associations were established
+4982 	Policy Change	IPsec Main Mode and Extended Mode security associations were established
+4983 	Policy Change	An IPsec Extended Mode negotiation failed
+4984 	Policy Change	An IPsec Extended Mode negotiation failed
+5378 	Policy Change	The requested credentials delegation was disallowed by policy
+5451 	Policy Change	An IPsec Quick Mode security association was established
+5452 	Policy Change	An IPsec Quick Mode security association ended
+5453 	Policy Change	An IPsec negotiation with a remote computer failed because the IKE and AuthIP IPsec Keying Modules (IKEEXT) service is not started
+5632 	Policy Change	A request was made to authenticate to a wireless network
+5633 	Policy Change	A request was made to authenticate to a wired network
+6272 	Policy Change	Network Policy Server granted access to a user
+6273 	Policy Change	Network Policy Server denied access to a user
+6274 	Policy Change	Network Policy Server discarded the request for a user
+6275 	Policy Change	Network Policy Server discarded the accounting request for a user
+6276 	Policy Change	Network Policy Server quarantined a user
+6277 	Policy Change	Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy
+6278 	Policy Change	Network Policy Server granted full access to a user because the host met the defined health policy
+6279 	Policy Change	Network Policy Server locked the user account due to repeated failed authentication attempts
+6280 	Policy Change	Network Policy Server unlocked the user account
+4673 	Privilege Use	A privileged service was called
+4674 	Privilege Use	An operation was attempted on a privileged object
+4608 	System	System is starting up
+4609 	System	System is shutting down
+4610 	System	An authentication package has been loaded by the Local Security Authority
+4611 	System	A trusted logon process has been registered with the Local Security Authority
+4612 	System	Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits.
+4614 	System	A notification package has been loaded by the Security Account Manager.
+4615 	System	Invalid use of LPC port
+4616 	System	The system time was changed.
+4618 	System	A monitored security event pattern has occurred
+4621 	System	Administrator recovered system from CrashOnAuditFail
+4622 	System	A security package has been loaded by the Local Security Authority.
+4697 	System	A service was installed in the system
+4821 	System	A Kerberos service ticket was denied because the user, device, or both does not meet the access control restrictions
+4822 	System	NTLM authentication failed because the account was a member of the Protected User group
+4823 	System	NTLM authentication failed because access control restrictions are required
+4824 	System	Kerberos preauthentication by using DES or RC4 failed because the account was a member of the Protected User group
+4825 	System	A user was denied the access to Remote Desktop. By default, users are allowed to connect only if they are members of the Remote Desktop Users group or Administrators group
+4830 	System	SID History was removed from an account
+5024 	System	The System Firewall Service has started successfully
+5025 	System	The System Firewall Service has been stopped
+5027 	System	The System Firewall Service was unable to retrieve the security policy from the local storage
+5028 	System	The System Firewall Service was unable to parse the new security policy.
+5029 	System	The System Firewall Service failed to initialize the driver
+5030 	System	The System Firewall Service failed to start
+5032 	System	System Firewall was unable to notify the user that it blocked an application from accepting incoming connections on the network
+5033 	System	The System Firewall Driver has started successfully
+5034 	System	The System Firewall Driver has been stopped
+5035 	System	The System Firewall Driver failed to start
+5037 	System	The System Firewall Driver detected critical runtime error. Terminating
+5038 	System	Code integrity determined that the image hash of a file is not valid
+5056 	System	A cryptographic self test was performed
+5058 	System	Key file operation
+5059 	System	Key migration operation
+5061 	System	Cryptographic operation
+5071 	System	Key access denied by Microsoft key distribution service
+5146 	System	The System Filtering Platform has blocked a packet
+5147 	System	A more restrictive System Filtering Platform filter has blocked a packet
+5379 	System	Credential Manager credentials were read
+5380 	System	Vault Find Credential
+5381 	System	Vault credentials were read
+5382 	System	Vault credentials were read
+5478 	System	IPsec Services has started successfully
+5479 	System	IPsec Services has been shut down successfully
+5480 	System	IPsec Services failed to get the complete list of network interfaces on the computer
+5483 	System	IPsec Services failed to initialize RPC server. IPsec Services could not be started
+5484 	System	IPsec Services has experienced a critical failure and has been shut down
+5485 	System	IPsec Services failed to process some IPsec filters on a plug-and-play event for network interfaces
+5890 	System	An object was added to the COM+ Catalog
+6281 	System	Code Integrity determined that the page hashes of an image file are not valid...
+6400 	System	BranchCache: Received an incorrectly formatted response while discovering availability of content.
+6401 	System	BranchCache: Received invalid data from a peer. Data discarded.
+6402 	System	BranchCache: The message to the hosted cache offering it data is incorrectly formatted.
+6403 	System	BranchCache: The hosted cache sent an incorrectly formatted response to the client's message to offer it data.
+6404 	System	BranchCache: Hosted cache could not be authenticated using the provisioned SSL certificate.
+6405 	System	BranchCache: %2 instance(s) of event id %1 occurred.
+6406 	System	%1 registered to System Firewall to control filtering for the following:
+6407 	System	%1
+6408 	System	Registered product %1 failed and System Firewall is now controlling the filtering for %2.
+6409 	System	BranchCache: A service connection point object could not be parsed
+6410 	System	Code integrity determined that a file does not meet the security requirements to load into a process. This could be due to the use of shared sections or other issues
+6417 	System	The FIPS mode crypto selftests succeeded
+6418 	System	The FIPS mode crypto selftests failed
+8191 	System	Highest System-Defined Audit Message Value
+7040	System 	Test
