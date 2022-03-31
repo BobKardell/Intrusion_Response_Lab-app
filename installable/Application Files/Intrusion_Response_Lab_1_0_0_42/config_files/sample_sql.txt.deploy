@@ -1,0 +1,47 @@
+The below are samples of SQL compatable with LogPaser.  The samples are located in the root directory of the application.  Edit, append, and delete as needed.
+The below samples can be copied and pasted into the the above "SQL" textbox for execution.
+
+Note:   Edit the FROM clause for the specific file;
+        Add "[IN_FILE]" and you will be prompted; and
+        Add "[OUT_FILE]" and you will be prompted for file to save to.
+
+Below are some samples:
+
+##Find All Remote Logins
+
+SELECT 
+      timegenerated, 
+      EXTRACT_TOKEN(Strings,1,'|') AS Domain, 
+      RESOLVE_SID(EXTRACT_TOKEN(Strings,0,'|')) AS User, 
+      EXTRACT_TOKEN(Strings,3,'|') AS SessionName,
+      RESOLVE_SID(EXTRACT_TOKEN(Strings,4,'|')) AS ClientName,
+      EXTRACT_TOKEN(Strings,5,'|') AS ClientAddress,
+      EventID
+FROM Security
+WHERE EventID=4624
+ORDER BY timegenerated
+
+##Find all Event IDs = 1000 that occur per hour
+
+SELECT quantize(to_time(timegenerated), 3600) AS hour,
+     Count(*) AS Number_of_Events
+FROM Application
+WHERE EventID=1000
+GROUP BY Hour
+ORDER BY Number_of_Events
+
+
+## Find all Event IDs = 1000 that occur per hour and save to file
+SELECT quantize(to_time(timegenerated), 3600) AS hour,
+Count(*) AS Number_of_Events
+INTO '[OUT_FILE]'
+FROM Application
+WHERE EventID=1000
+GROUP BY Hour
+ORDER BY Number_of_Events
+
+## Find all interfaced used
+
+SELECT * 
+INTO '[OUT_FILE]'
+FROM HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces
