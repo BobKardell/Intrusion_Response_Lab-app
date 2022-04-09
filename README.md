@@ -1,6 +1,6 @@
 # Intrusion_Response_Lab-app
 Intrusion Response Lab application only
-The Lob is a small, fast, extensible, portable intrusion application to conduct an investigation on an Windows based machine.
+The Lab is a small, fast, extensible, portable intrusion application to conduct an investigation on an Windows based machine.
 
 The application is:
   Small - only uses a few megabytes of space for the full application.
